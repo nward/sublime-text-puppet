@@ -191,7 +191,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(case|if|else)(?!::)</string>
+			<string>\b(case|if|else|elsif)(?!::)</string>
 			<key>name</key>
 			<string>keyword.control.puppet</string>
 		</dict>
@@ -239,7 +239,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(escape|gsub|alert|crit|debug|notice|defined|emerg|err|failed|file|generate|include|info|realize|search|tag|tagged|template|warning)\b</string>
+			<string>\b(alert|create_resources|crit|debug|defined|emerg|err|extlookup|fail|file|fqdn_rand|generate|include|info|inline_template|md5|notice|realize|regsubst|require|search|sha1|shellquote|split|sprintf|tag|tagged|template|versioncmp|warning)\b</string>
 			<key>name</key>
 			<string>support.function.puppet</string>
 		</dict>
