@@ -254,7 +254,7 @@
 					<key>match</key>
 					<string>(?i)\b(false|true|running|present|absent|file|directory)\b</string>
 					<key>name</key>
-					<string>constant.language.php</string>
+					<string>constant.language.puppet</string>
 				</dict>
 			</array>
 		</dict>
@@ -520,7 +520,7 @@
 					<key>match</key>
 					<string>=</string>
 					<key>name</key>
-					<string>keyword.operator.assignment.php</string>
+					<string>keyword.operator.assignment.puppet</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -544,7 +544,7 @@
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>meta.array.php</string>
+					<string>meta.array.puppet</string>
 					<key>patterns</key>
 					<array>
 						<dict>
