@@ -239,7 +239,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(alert|create_resources|crit|debug|defined|emerg|err|extlookup|fail|file|fqdn_rand|generate|include|info|inline_template|md5|notice|realize|regsubst|require|search|sha1|shellquote|split|sprintf|tag|tagged|template|versioncmp|warning)\b</string>
+			<string>\b(alert|create_resources|crit|debug|defined|emerg|err|extlookup|fail|file|fqdn_rand|generate|hiera|hiera_array|hiera_hash|hiera_include|include|info|inline_template|md5|notice|realize|regsubst|require|search|sha1|shellquote|split|sprintf|tag|tagged|template|versioncmp|warning)\b</string>
 			<key>name</key>
 			<string>support.function.puppet</string>
 		</dict>
